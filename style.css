@@ -45,13 +45,10 @@ header {
     border: 2px solid white;
     margin: 0 10px 0 10px;
 }
-section.manager {
-    max-height: 350px;
-    overflow: auto;
-}
+
 .col_detail {
-    column-count: 3;
-    column-rule: 2px solid rgb(199, 32, 32);
+    column-count: 2;
+    column-rule: 2px solid rgb(247, 0, 255);
     column-gap: 50px;
     padding: 2px;
     text-align: justify;
@@ -80,22 +77,18 @@ footer {
 }
 aside
 {
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid rgb(153, 0, 255);
     float: right;
-    width: 18%;
+    width: 19%;
+    
+    
 }
 #Maincontent {
     float: left;
     width: 80%;
-    border: 1px solid rgb(11, 235, 59);
+    border: 1px solid rgb(198, 11, 235);
 }
-aside ul li {
-    list-style-type: none;
-}
-aside ul li a {
-    color: rgb(11, 138, 223);
-    text-decoration: none;
-}
+
 body {
     font-family: Verdana;
     background-color: black;
@@ -105,35 +98,7 @@ p {
     text-align: justify;
     padding: 2px;
 }
-.course {
-    text-align: center;
-    border: 1px solid white;
-    padding: 10px;
-}
-.videoContent {
-    float: right;
-    width: 49%;
-    border: 2px solid white;
-    max-height: 450px;
-    min-height: 450px;
-    overflow: auto;
-}
-.backgroundImageB {
-    background-image: url(/images/bacon.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.backgroundImageC {
-    background-image: url(/images/carrots.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.backgroundImageE {
-    background-image: url(/images/eggs.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font: black;
-}
+
 main a {
     color: #fc8787;
     text-decoration: none;
