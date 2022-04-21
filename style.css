@@ -53,6 +53,8 @@ header {
     padding: 2px;
     text-align: justify;
 }
+
+
 footer ul li {
     list-style-type: none;
     color: white;
@@ -91,7 +93,8 @@ aside
 
 body {
     font-family: Verdana;
-    background-color: black;
+    background: rgb(4,3,18);
+    background: linear-gradient(90deg, rgba(4,3,18,1) 0%, rgba(116,9,121,1) 52%, rgba(0,212,255,1) 100%);
     color: white;
 }
 p {
